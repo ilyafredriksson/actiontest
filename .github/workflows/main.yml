@@ -1,12 +1,12 @@
 name: ett fantasi namn
 
 on:
-push:
-branches: [main]
-
+  push:
+    branches: [main]
+    
 jobs:
-react_on_push:
-runs-on: ubuntu-latest
-steps:
-  -name: Hello world
-  run: echo
+      react_on_push:
+         runs-on: ubuntu-latest
+         steps:
+         - name: Hello world
+           run: echo hello world 
